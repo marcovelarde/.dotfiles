@@ -7,6 +7,7 @@ sudo pacman -Sy yay \
 	vim \
 	tk \
 	keepassxc \
+	htop \
 	nodejs \
 	npm \
 	yarn \
