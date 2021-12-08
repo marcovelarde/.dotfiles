@@ -5,6 +5,8 @@ sudo pacman -Sy yay \
 	binutils \
 	fakeroot \
 	vim \
+	tk \
+	keepassxc \
 	nodejs \
 	npm \
 	yarn \
