@@ -8,6 +8,7 @@ sudo pacman -Sy yay \
 	tk \
 	keepassxc \
 	htop \
+    ripgrep \
 	nodejs \
 	npm \
 	yarn \
