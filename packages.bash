@@ -1,4 +1,5 @@
 sudo pacman -Sy yay \
+    	make \
 	mesa \
 	gcc \
 	kitty \
@@ -8,7 +9,7 @@ sudo pacman -Sy yay \
 	tk \
 	keepassxc \
 	htop \
-    ripgrep \
+    	ripgrep \
 	nodejs \
 	npm \
 	yarn \
