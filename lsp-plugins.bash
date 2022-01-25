@@ -1,4 +1,4 @@
-pip install python-lsp-server
+pip install 'python-lsp-server[all]'
 sudo npm install -g typescript typescript-language-server \
 	vls \
 	vim-language-server \

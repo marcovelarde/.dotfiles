@@ -5,11 +5,17 @@ sudo pacman -Sy yay \
 	kitty \
 	binutils \
 	fakeroot \
-	vim \
+	gvim \
+	mpdecimal \
+	patch \
+	iputils \
 	tk \
+	gnome-shell \
+	i3 \
 	keepassxc \
 	htop \
     	ripgrep \
+	xclip \
 	nodejs \
 	npm \
 	yarn \
