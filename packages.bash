@@ -1,7 +1,8 @@
 sudo pacman -Sy yay \
-    	make \
+    make \
 	mesa \
 	gcc \
+    linux515-headers \
 	kitty \
 	binutils \
 	fakeroot \
@@ -14,12 +15,16 @@ sudo pacman -Sy yay \
 	i3 \
 	keepassxc \
 	htop \
-    	ripgrep \
+    ripgrep \
 	xclip \
 	nodejs \
 	npm \
 	yarn \
 	go \
+    obs-studio \
+    v4l2loopback-dkms \
 	python-pip \
+	brave-browser \
+	telegram-desktop \
 	--needed \
 	--noconfirm \
