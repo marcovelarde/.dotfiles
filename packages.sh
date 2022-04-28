@@ -6,6 +6,7 @@ sudo pacman -Sy yay \
   mesa-utils \
   gcc \
   linux515-headers \
+  pkgconf \
   kitty \
   binutils \
   fakeroot \
@@ -20,6 +21,7 @@ sudo pacman -Sy yay \
   ripgrep \
   oh-my-zsh \
   xclip \
+  libpqxx \
   nodejs \
   npm \
   yarn \
