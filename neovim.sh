@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
-yay -Sy neovim-nightly-bin \
+#yay -Sy neovim-nightly-bin \
+sudo pacman -S neovim \
   --needed \
   --noconfirm
 
