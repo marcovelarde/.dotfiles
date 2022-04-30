@@ -22,6 +22,7 @@ sudo pacman -Sy yay \
   oh-my-zsh \
   xclip \
   libpqxx \
+  rofi \
   nodejs \
   npm \
   yarn \
