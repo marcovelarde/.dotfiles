@@ -25,6 +25,7 @@ sudo pacman -Sy yay \
   rofi \
   nodejs \
   npm \
+  nvm \
   yarn \
   go \
   obs-studio \

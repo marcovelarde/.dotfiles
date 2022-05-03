@@ -28,3 +28,5 @@ antigen bundle zthxxx/jovial
 antigen theme zthxxx/jovial
 
 antigen apply
+
+source /usr/share/nvm/init-nvm.sh
