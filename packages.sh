@@ -23,6 +23,7 @@ sudo pacman -Sy yay \
   xclip \
   libpqxx \
   rofi \
+  docker \
   nodejs \
   npm \
   nvm \

@@ -5,3 +5,4 @@ source ./packages-yay.sh
 source ./pip.sh
 source ./neovim.sh
 source ./lsp-plugins.sh
+source ./docker.sh
