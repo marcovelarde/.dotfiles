@@ -13,3 +13,5 @@ sudo pacman -Sy gopls \
   lua-language-server \
   --needed \
   --noconfirm
+
+go install github.com/lighttiger2505/sqls@latest
