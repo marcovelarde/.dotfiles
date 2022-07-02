@@ -35,6 +35,7 @@ sudo pacman -Sy yay \
   brave-browser \
   telegram-desktop \
   discord \
+  deno \
   manjaro-printer \
   wkhtmltopdf \
   --needed \
