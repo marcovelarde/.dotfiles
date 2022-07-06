@@ -19,6 +19,7 @@ sudo pacman -Sy yay \
   i3 \
   keepassxc \htop \
   ripgrep \
+  fd \
   oh-my-zsh \
   xclip \
   libpqxx \
