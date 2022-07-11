@@ -15,3 +15,5 @@ sudo pacman -Sy gopls \
   --noconfirm
 
 go install github.com/lighttiger2505/sqls@latest
+
+go install github.com/fatih/gomodifytags@latest
