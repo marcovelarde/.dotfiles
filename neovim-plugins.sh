@@ -11,6 +11,7 @@ sudo npm install -g \
 
 sudo pacman -Sy gopls \
   lua-language-server \
+  rust-analyzer \
   --needed \
   --noconfirm
 
