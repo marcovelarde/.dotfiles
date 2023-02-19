@@ -1,4 +1,5 @@
 #!/usr/bin/bash
 
-sudo pip install \
-  md2pdf \
+pip install \
+        md2pdf \
+        poetry
