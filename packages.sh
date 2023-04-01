@@ -27,6 +27,7 @@ sudo pacman -Sy yay \
         nodejs \
         npm \
         nvm \
+        nvtop \
         obs-studio \
         patch \
         pkgconf \
