@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-pip install 'python-lsp-server[all]'
+pipx install 'python-lsp-server[all]'
 sudo npm install -g \
         @angular/language-server \
         sql-language-server \
