@@ -19,6 +19,7 @@ sudo pacman -Sy yay \
         lazygit \
         libpqxx \
         linux515-headers \
+        lsof \
         make \
         manjaro-printer \
         mesa \
