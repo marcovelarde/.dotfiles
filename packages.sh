@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 sudo pacman -Sy yay \
+        aws-cli \
         binutils \
         brave-browser \
         deno \
