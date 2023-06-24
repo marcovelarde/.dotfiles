@@ -7,4 +7,4 @@ python3 -m pipx ensurepath
 
 pipx install awsebcli
 pipx install poetry
-pipx install lookatme
+pipx install --pip-args='--pre' lookatme
