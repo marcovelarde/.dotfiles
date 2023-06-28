@@ -12,6 +12,7 @@ sudo pacman -Sy yay \
         gcc \
         gnome-shell \
         go \
+        go-yq \
         gvim \
         i3 \
         iputils \
@@ -40,6 +41,7 @@ sudo pacman -Sy yay \
         tk \
         v4l2loopback-dkms \
         xclip \
+        xorg-xeyes \
         yarn \
         --needed \
         --noconfirm
