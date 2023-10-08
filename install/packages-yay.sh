@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 yay -Sy \
-        antigen \
+        antigen-git \
         aws-sam-cli-bin \
         i3lock-fancy-multimonitor \
         insomnia-bin \
