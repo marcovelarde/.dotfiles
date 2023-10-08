@@ -1,4 +1,4 @@
-### Default manjaro settings
+## Default manjaro settings
 # Use powerline
 #USE_POWERLINE="true"
 # Source manjaro-zsh-configuration
@@ -30,3 +30,11 @@ antigen theme zthxxx/jovial
 antigen apply
 
 source /usr/share/nvm/init-nvm.sh
+
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+
+source ~/.dotfiles/aliases.sh
+
+export PATH=$PATH:$GOBIN

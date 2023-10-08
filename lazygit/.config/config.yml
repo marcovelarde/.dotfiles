@@ -1,0 +1,5 @@
+keybinding:
+  universal:
+    quit-alt1: ''
+    return: '<c-c>'
+    goInto: '<c-n>'

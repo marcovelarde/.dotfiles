@@ -2,9 +2,7 @@
 
 # Remove ~/.local/pipx when host update the default python version and reinstall
 
-python3 -m pip install --user pipx md2pdf
-python3 -m pipx ensurepath
-
-pipx install awsebcli
+pipx install md2pdf
 pipx install poetry
 pipx install --pip-args='--pre' lookatme
+pipx ensurepath

@@ -4,5 +4,5 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
-systemctl start docker.service
-systemctl enable docker.service
+sudo systemctl start docker.service
+sudo systemctl enable docker.service

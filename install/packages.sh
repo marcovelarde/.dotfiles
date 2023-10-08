@@ -11,6 +11,7 @@ sudo pacman -Sy yay \
         fd \
         gcc \
         gnome-shell \
+        gnome-themes-extra \
         go \
         go-yq \
         gvim \
@@ -27,6 +28,7 @@ sudo pacman -Sy yay \
         mesa \
         mesa-utils \
         mpdecimal \
+        neofetch \
         nodejs \
         npm \
         nvm \
@@ -35,13 +37,15 @@ sudo pacman -Sy yay \
         patch \
         pkgconf \
         python-pip \
+        python-pipx \
         ripgrep \
         rofi \
+        stow \
         telegram-desktop \
         tk \
         v4l2loopback-dkms \
+        vlc \
         xclip \
         xorg-xeyes \
         yarn \
-        --needed \
-        --noconfirm
+        --needed
