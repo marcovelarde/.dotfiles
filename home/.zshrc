@@ -1,6 +1,6 @@
 ## Default manjaro settings
 # Use powerline
-#USE_POWERLINE="true"
+# USE_POWERLINE="true"
 # Source manjaro-zsh-configuration
 if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
   source /usr/share/zsh/manjaro-zsh-config
@@ -19,6 +19,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
+antigen bundle urltools
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting

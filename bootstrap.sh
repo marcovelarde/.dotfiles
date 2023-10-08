@@ -6,7 +6,6 @@ source ./install/python.sh
 source ./install/neovim.sh
 source ./install/neovim-plugins.sh
 source ./install/docker.sh
-# source ./install/zsh.sh
 source ./install/node.sh
 source ./install/stow.sh
 source ./install/post_install.sh
