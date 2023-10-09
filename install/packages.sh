@@ -14,9 +14,10 @@ sudo pacman -Sy yay \
         go \
         go-yq \
         gvim \
+        htop \
         i3 \
         iputils \
-        keepassxc \htop \
+        keepassxc \
         kitty \
         lazygit \
         libpqxx \

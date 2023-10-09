@@ -1,2 +1,2 @@
 export XDG_CONFIG_HOME=$HOME/.config
-export GTK_THEME=Adwaita:dark
+export GTK_THEME=Adw:dark
