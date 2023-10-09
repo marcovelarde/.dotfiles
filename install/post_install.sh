@@ -2,6 +2,6 @@
 
 set -e
 
-source ~/.zshrc
-
 nvm install 18 lts
+
+sudo mhwd-kernel -i linux515

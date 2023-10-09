@@ -8,4 +8,3 @@ source ./install/neovim-plugins.sh
 source ./install/docker.sh
 source ./install/node.sh
 source ./install/stow.sh
-source ./install/post_install.sh
