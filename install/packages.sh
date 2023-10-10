@@ -10,6 +10,7 @@ sudo pacman -Sy yay \
         fakeroot \
         fd \
         gcc \
+        gimp \
         gnome-themes-extra \
         go \
         go-yq \
