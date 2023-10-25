@@ -7,6 +7,7 @@ sudo pacman -Sy yay \
         deno \
         discord \
         docker \
+        docker-compose \
         fakeroot \
         fd \
         gcc \
@@ -23,6 +24,7 @@ sudo pacman -Sy yay \
         lazygit \
         libpqxx \
         linux515-headers \
+        linux65-headers \
         lsof \
         make \
         manjaro-printer \
