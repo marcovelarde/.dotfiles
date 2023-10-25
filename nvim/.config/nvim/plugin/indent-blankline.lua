@@ -14,10 +14,11 @@ vim.opt.listchars:append('eol:↴')
 vim.g.rainbow_delimiters = { highlight = scope_hl }
 
 require 'ibl'.setup {
-  scope = {
-    highlight = scope_hl,
-    enabled = true,
-  },
+  -- highlight slow on large files
+  -- scope = {
+  --   highlight = scope_hl,
+  --   enabled = true,
+  -- },
   indent = {
     char = '▎',
     tab_char = '▎',
