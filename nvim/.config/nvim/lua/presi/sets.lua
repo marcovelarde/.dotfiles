@@ -7,9 +7,6 @@ vim.opt.expandtab = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 
--- Folding
--- vim.opt.foldmethod = "expr"
--- vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 -- vim.opt.shiftwidth = 2
 -- vim.opt.tabstop = 4
 -- vim.opt.softtabstop = 4

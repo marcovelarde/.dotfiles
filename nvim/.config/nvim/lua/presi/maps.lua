@@ -20,6 +20,10 @@ map('n', '<leader>k', ':m .-2<CR>==', { noremap = true })
 map('i', '<C-j>', '<esc>:m .+1<CR>==', { noremap = true })
 map('i', '<C-k>', '<esc>:m .-2<CR>==', { noremap = true })
 
+-- Folding
+map('n', 'zR', "<cmd>lua require('ufo').openAllFolds()<CR>", { noremap = true })
+map('n', 'zM', "<cmd>lua require('ufo').closeAllFolds()<CR>", { noremap = true })
+
 -- Undo break points?
 -- map('i', ',', ',<C-g>u')
 -- map('i', '.', '.<C-g>u')

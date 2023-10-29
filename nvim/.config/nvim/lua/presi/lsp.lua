@@ -66,6 +66,11 @@ cmp.setup.cmdline(':', {
 local capabilities = cmp_nvim.default_capabilities(
   vim.lsp.protocol.make_client_capabilities()
 )
+capabilities.textDocument.foldingRange = {
+  dynamicRegistration = false,
+  lineFoldingOnly = true,
+  -- rangeLimit = 3,
+}
 
 -- Lua lsp
 -- https://github.com/tjdevries/nlua.nvim/pull/10
@@ -171,6 +176,7 @@ lspconfig.rust_analyzer.setup{
   filetypes = { "rust" }
 }
 lspconfig.sqlls.setup{
+  capabilities = capabilities,
   cmd =  { "sql-language-server", "up", "--method", "stdio" },
   filetypes = { "sql", "postgres" },
 }
@@ -180,6 +186,7 @@ lspconfig.html.setup {
 
 -- Vim lsp
 lspconfig.vimls.setup{
+  capabilities = capabilities,
   cmd = { 'vim-language-server', '--stdio' }
 }
 

@@ -60,6 +60,10 @@ Plug('lukas-reineke/indent-blankline.nvim')
 Plug('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && yarn install' })
 Plug('ThePrimeagen/harpoon')
 
+-- Folding
+Plug('kevinhwang91/promise-async')
+Plug('kevinhwang91/nvim-ufo')
+
 -- Status bottom bar
 Plug('vim-airline/vim-airline')
 Plug('vim-airline/vim-airline-themes')
