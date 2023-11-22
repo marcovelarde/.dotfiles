@@ -19,6 +19,7 @@ sudo pacman -Sy yay \
         htop \
         i3 \
         iputils \
+        jq \
         keepassxc \
         kitty \
         lazygit \
