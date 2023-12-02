@@ -47,6 +47,7 @@ sudo pacman -Sy yay \
         stow \
         telegram-desktop \
         tk \
+        ttf-sourcecodepro-nerd \
         v4l2loopback-dkms \
         vlc \
         xclip \
