@@ -71,6 +71,7 @@ capabilities.textDocument.foldingRange = {
   lineFoldingOnly = true,
   -- rangeLimit = 3,
 }
+capabilities.textDocument.completion.completionItem.snippetSupport = true -- JSON lsp
 
 -- Lua lsp
 -- https://github.com/tjdevries/nlua.nvim/pull/10
@@ -188,6 +189,11 @@ lspconfig.html.setup {
 lspconfig.vimls.setup{
   capabilities = capabilities,
   cmd = { 'vim-language-server', '--stdio' }
+}
+
+lspconfig.jsonls.setup{
+  capabilities = capabilities,
+  cmd = { 'vscode-json-language-server', '--stdio' }
 }
 
 lspconfig.yamlls.setup{
