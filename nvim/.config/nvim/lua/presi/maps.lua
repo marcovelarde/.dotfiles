@@ -94,7 +94,7 @@ vim.api.nvim_del_keymap('n', '<CR>')
 
 -- LSP
 map('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', { silent = true })
-map('n', 'gi', '<cmd>lua vim.lsp.bug.implementation()<CR>', { silent = true })
+map('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', { silent = true })
 map('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', { silent = true })
 map('n', '<leader>sh', '<cmd>lua vim.lsp.buf.signature_help()<CR>', { noremap = true })
 map('n', '<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', { noremap = true })
