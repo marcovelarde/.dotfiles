@@ -16,7 +16,7 @@ Plug('hrsh7th/vim-vsnip')
 Plug('saadparwaiz1/cmp_luasnip')
 Plug('L3MON4D3/LuaSnip')
 
-Plug('glepnir/lspsaga.nvim')
+Plug('nvimdev/lspsaga.nvim')
 Plug('simrat39/symbols-outline.nvim')
 
 -- LSP lines
