@@ -4,4 +4,4 @@ set -e
 
 nvm install 18 lts
 
-sudo mhwd-kernel -i linux515
+sudo mhwd-kernel -i linux66

@@ -24,8 +24,7 @@ sudo pacman -Sy yay \
         kitty \
         lazygit \
         libpqxx \
-        linux515-headers \
-        linux65-headers \
+        linux66-headers \
         lsof \
         make \
         manjaro-printer \
