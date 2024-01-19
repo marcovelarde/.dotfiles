@@ -93,6 +93,9 @@ Plug('akinsho/toggleterm.nvim')
 -- Copilot
 Plug('github/copilot.vim')
 
+-- Kitty scroll
+Plug('mikesmithgh/kitty-scrollback.nvim')
+
 -- Other
 Plug('vinnymeller/swagger-preview.nvim', { ['do'] = 'npm install -g swagger-ui-watcher' })
 
