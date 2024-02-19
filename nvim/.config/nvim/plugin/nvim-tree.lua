@@ -2,6 +2,7 @@ local api = require'nvim-tree.api'
 
 local WIDTH_RATIO = 0.25
 local HEIGHT_RATIO = 0.4
+local VIEW_FLOAT = true
 
 -- Based on https://github.com/nvim-tree/nvim-tree.lua/wiki/Recipes#center-a-floating-nvim-tree-window
 local function open_win_config()
@@ -60,7 +61,7 @@ require'nvim-tree'.setup {
   },
   view = {
     width = function()
-      return math.floor(vim.opt.columns:get() * WIDTH_RATIO)
+      return math.floor(vim.opt.columns:get() * 0.15)
     end,
     adaptive_size = false,
     centralize_selection = true,
@@ -71,7 +72,7 @@ require'nvim-tree'.setup {
     signcolumn = "yes",
     float = {
       quit_on_focus_loss = true,
-      enable = true,
+      enable = VIEW_FLOAT,
       open_win_config = open_win_config,
     }
   },
