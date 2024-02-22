@@ -51,6 +51,7 @@ Plug('folke/which-key.nvim')
 
 -- Lua plugins
 Plug('folke/neodev.nvim')
+Plug('folke/todo-comments.nvim')
 
 -- Helpers
 Plug('terrortylor/nvim-comment')
