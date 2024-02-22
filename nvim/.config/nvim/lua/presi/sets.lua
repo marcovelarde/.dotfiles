@@ -18,6 +18,9 @@ vim.opt.undofile = true
 vim.opt.colorcolumn = "100"
 vim.opt.mouse = "a"
 vim.opt.background = "dark"
+vim.opt.hlsearch = true
+vim.keymap.set('n', '<CR>', ':nohlsearch<CR>', { silent = true })
+vim.opt.inccommand = "split"
 
 -- vim.o.timeout = true
 -- vim.o.timeoutlen = 300
@@ -25,7 +28,6 @@ vim.o.loaded_netrw = false
 vim.o.loaded_netrwPlugin = false
 
 vim.cmd("set undodir=~/.vim/undodir")
-vim.cmd("set nohlsearch")
 vim.cmd("colorscheme deep-space")
 vim.cmd("set noswapfile")
 vim.cmd("set nobackup")

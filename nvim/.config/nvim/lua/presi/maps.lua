@@ -90,7 +90,7 @@ map('n', '++', ':CommentToggle<CR>')
 -- Harpoon
 map('n', '<C-m>', '<cmd>lua require("harpoon.ui").toggle_quick_menu()<CR>', { noremap = true })
 map('n', '<C-a>', '<cmd>lua require("harpoon.mark").add_file()<CR>', { noremap = true })
-vim.api.nvim_del_keymap('n', '<CR>')
+-- vim.api.nvim_del_keymap('n', '<CR>')
 
 -- LSP
 map('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', { silent = true })
