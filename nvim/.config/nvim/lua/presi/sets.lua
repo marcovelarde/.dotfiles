@@ -19,7 +19,9 @@ vim.opt.colorcolumn = "100"
 vim.opt.mouse = "a"
 vim.opt.background = "dark"
 vim.opt.hlsearch = true
-vim.keymap.set('n', '<CR>', ':nohlsearch<CR>', { silent = true })
+vim.keymap.set('n', '<Esc>', ':nohlsearch<CR>', { silent = true })
+vim.api.nvim_del_keymap('n', '<CR>') -- Disable harpoon mapping
+
 vim.opt.inccommand = "split"
 
 -- vim.o.timeout = true
