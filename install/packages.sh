@@ -25,6 +25,7 @@ sudo pacman -Sy yay \
         lazygit \
         libpqxx \
         linux66-headers \
+        linux66-nvidia \
         lsof \
         make \
         manjaro-printer \

@@ -38,4 +38,4 @@ export GOBIN=$GOPATH/bin
 
 source ~/.dotfiles/aliases.sh
 
-export PATH=$PATH:$GOBIN
+export PATH=$PATH:$GOBIN:~/.cargo/bin
