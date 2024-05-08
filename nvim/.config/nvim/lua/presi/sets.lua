@@ -43,6 +43,7 @@ vim.cmd("autocmd FileType html :setlocal shiftwidth=2")
 vim.cmd("autocmd FileType go :setlocal shiftwidth=8")
 vim.cmd("autocmd FileType sql :setlocal shiftwidth=4")
 vim.cmd("autocmd FileType lua :setlocal shiftwidth=2")
+vim.cmd("autocmd FileType json :setlocal shiftwidth=4")
 
 -- vim.cmd("autocmd BufReadPost,FileReadPost * normal zR")
 
