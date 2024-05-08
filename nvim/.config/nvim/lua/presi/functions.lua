@@ -32,7 +32,7 @@ JQ = function(key)
       { key = k }
     )
 
-    local _, _ = pcall(function()
+    local _, _ = pcall(function() -- ok, errs
       vim.cmd(command)
     end)
     buf_lines = vim.fn.line('$')
