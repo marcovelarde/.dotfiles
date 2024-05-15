@@ -38,6 +38,7 @@ sudo pacman -Sy yay \
         nvm \
         nvtop \
         obs-studio \
+        pavucontrol \
         patch \
         pkgconf \
         python-pip \
