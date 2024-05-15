@@ -3,3 +3,7 @@ keybinding:
     quit-alt1: ''
     return: '<c-c>'
     goInto: '<c-n>'
+git:
+  commit:
+    autoWrapCommitMessage: true
+    autoWrapWidth: 72
