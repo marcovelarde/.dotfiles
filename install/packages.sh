@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 sudo pacman -Sy yay \
+        avidemux-qt \
         aws-cli-v2 \
         binutils \
         brave-browser \
